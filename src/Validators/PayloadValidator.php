@@ -37,11 +37,13 @@ class PayloadValidator extends AbstractValidator
     {
         $this->validateStructure($value);
 
+        /*
         if (! $this->refreshFlow) {
             $this->validateTimestamps($value);
         } else {
             $this->validateRefresh($value);
         }
+        */
     }
 
     /**
